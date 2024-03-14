@@ -1,0 +1,88 @@
+.portfolio{
+    padding: 89px 20px 0;
+}
+.blockTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+}
+.blockTitle div{
+    width: 17%;
+    height: 2px;
+    background: #bdae82;
+}
+.title{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 200%;
+    text-align: center;
+    color: #bdae82;
+}
+.blocBtn{
+    display:flex;
+    justify-content: center;
+    gap:5px;
+    margin-top: 60px;
+    
+
+}
+.blocBtn button{
+    border: 2px solid #BDAE82;
+    padding: 6px 0;
+    width: 16%;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    text-align: center;
+    color: #bdae82;
+}
+.blocBtn .active{
+    background-color: #bdae82;
+    color: #000;
+}
+.portfolioBlock{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.portfolioBlock img{
+    width: 32%;
+    margin-bottom: 22px;
+}
+
+
+  @media(max-width:768px){
+    .portfolio{
+      
+        padding-top: 113px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .title{
+        font-size: 32px;
+    }
+
+    .blockTitle div{
+        width: 12%;
+    }
+    .blocBtn{
+        flex-wrap: wrap;
+        width: 61%;
+        margin-top: 0;
+    }
+    .blocBtn button{
+        width: 49%;
+    }
+    .portfolioBlock{
+        margin-top: 0;
+    }
+    .portfolioBlock{
+        margin: 0 auto;
+        width: 62%;
+    }
+  }

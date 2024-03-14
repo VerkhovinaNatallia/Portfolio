@@ -1,13 +1,61 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+:root {
+  --font-family: "Inter", sans-serif;
+  --second-family: "Merriweather", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root{
+  margin:0 auto;
+max-width:1440px;
+}
+*{
+  font-family:'Inter400';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+h1,h2{
+  font-family:'Merriweather';
+  font-weight: 700;
+}
+h1{
+  font-size: 60px;
+  line-height: 120px;
+}
+h2{
+  font-size: 40px;
+  line-height: 80px;
+  color: #BDAE82;
+}
+
+
+
+h3{
+  
+  font-family:'Inter700';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 40px;
+}
+section, footer{
+  background-color:#000;
+  color:#fff;
+  padding:100px 20px 0;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:60px;
+}
+button:hover{
+  color:#fff;
+}
+svg {
+  fill:#fff;
+}
+svg:hover{
+  fill: #BDAE82;
+}
+a:hover{
+  color:#BDAE82;
 }

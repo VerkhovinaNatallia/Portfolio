@@ -1,0 +1,54 @@
+.video{
+    position:relative;
+    padding: 78px 20px 0;
+}
+.video svg{
+        position:absolute;
+        top: 55%;
+        left: 46%;
+    }
+.blockTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+    margin-bottom: 59px;
+}
+.blockTitle div{
+    width: 19%;
+    height: 2px;
+    background: #bdae82;
+}
+.title{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 200%;
+    text-align: center;
+    color: #bdae82;
+}
+
+@media(max-width:768px){
+    .video{
+        padding: 65px 0 0;
+    }
+    .portfolio{
+      
+        padding-top: 113px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .title{
+        font-size: 32px;
+    }
+
+    .blockTitle div{
+        width: 16%;
+    }
+    .video svg{
+        top: 63%;
+        left: 41%;
+        height: 68px;
+    }
+}

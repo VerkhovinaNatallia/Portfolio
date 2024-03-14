@@ -1,0 +1,21 @@
+.navigation {
+    display: flex;
+    gap: 26px;
+    
+}
+
+
+.link{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 250%;
+color: #fff;
+}
+
+
+@media (max-width: 768px){
+    .bloc{
+        display: none;
+    }
+}

@@ -17,11 +17,6 @@ export const Header = () => {
             <div className={style.headerNavig}>
                 <Navigation />
 
-                <div>
-                    <button>en</button>
-                    <p>/</p>
-                    <button>ru</button>
-                </div>
                 <button className={style.burger} onClick={toggleMenu}>
                 <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 11H50V14.1111H0V11Z" fill="white" />
